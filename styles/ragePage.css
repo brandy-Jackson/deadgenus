@@ -1,0 +1,56 @@
+body {
+  background-color: #383735;
+  padding-left: auto;
+  padding-right: auto;
+
+}
+
+select {
+  background-color: black;
+  color: red;
+  font-weight: bolder;
+  width: 30%;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 4px 25%;
+  box-sizing: border-box;
+}
+
+iframe,
+video {
+  display: inline-block;
+  width: 71%;
+  margin-left: 14%;
+  margin-right: 14%;
+
+
+}
+#mainFrame {
+  display: inline-block;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  color: red;
+  border: 3px solid #000000;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  color: rgb(43, 0, 255);
+  font-weight: bolder;
+}
+
+tr:nth-child(even) {
+  background-color: #692b2b;
+}
